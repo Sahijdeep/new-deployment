@@ -33,10 +33,10 @@ def user_input_features():
   Age_at_enrollment=st.sidebar.slider('Age at enrollment', 18,55,36)
   International=st.sidebar.slider('International', 0, 1)
 
-  user_input_data = {'Tuition fees up to date': Tuition_fees_up_to_date,
-                     'Scholarship holder': Scholarship_holder,
-                     'Marital status':Marital_Status,
+  user_input_data = {'Marital status':Marital_Status,
+                     'Tuition fees up to date': Tuition_fees_up_to_date,
                      'Gender':Gender,
+                     'Scholarship holder': Scholarship_holder,
                      'Age at enrollment':Age_at_enrollment,
                      'International':International}
 
